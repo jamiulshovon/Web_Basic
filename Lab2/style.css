@@ -1,0 +1,36 @@
+.Nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(66, 62, 62);
+  color: white;
+  align-items: center;
+}
+.cart {
+  width: 30px;
+  height: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
